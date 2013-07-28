@@ -1,4 +1,7 @@
 
+Installation:
+
+git clone git://github.com/sunishb/dotVim.git ~/.vim
 
 /* Creating Symbolic link in windows7 */
 mklink /D "c:\Vim\.vimrc" "c:\Vim\.vim\vimrc"
