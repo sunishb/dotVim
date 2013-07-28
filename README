@@ -1,0 +1,4 @@
+
+
+/* Creating Symbolic link in windows7 */
+mklink /D "c:\Vim\.vimrc" "c:\Vim\.vim\vimrc"
