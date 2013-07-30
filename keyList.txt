@@ -1,0 +1,26 @@
+6Vim
+----
+H L M (move hi, lo, mid)
+^o (prev) ^i (nxt)
+
+zt (top screen) zb (bottom) zz (mid)
+
+^t ^d (indent +/-)
+
+:set relativenumber
+Head/Mid/Last : H M L
+^e ^y (move up/down the screen)
+
+^v - block visual selection (col edit) 
+
+==========================================
+window
+-----
+ls
+sb1 -- horiz window
+vert sb3 - vert
+
+Recording
+--------
+q<buffer>
+
