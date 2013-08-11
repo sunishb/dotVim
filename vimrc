@@ -1,18 +1,23 @@
 
+
 " Sunishb Vimrc settings.)
 set nocompatible
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+
+source $VIM/dotVim/bundle/vim-pathogen/autoload/pathogen.vim
+source $VIM/dotVim/startup/keymap.vim
+
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#incubate()
+execute pathogen#infect('bundle/{}', '$VIM/dotVim/bundle/{}')
 
 filetype on
 filetype indent on
 filetype plugin on
 
-"execute pathogen#infect()
 "call pathogen#helptags()
 syntax on
 
-set rtp+={./Vim73/bundle}/powerline/bindings/vim
+set rtp+={$VIM/dotVim/bundle}/powerline/bindings/vim
 
 set cursorline
 set number
