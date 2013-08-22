@@ -3,12 +3,12 @@
 " Sunishb Vimrc settings.)
 set nocompatible
 
-source $VIM/dotVim/bundle/vim-pathogen/autoload/pathogen.vim
+source $VIM/dotVim/autoload/vim-pathogen/autoload/pathogen.vim
 source $VIM/dotVim/startup/keymap.vim
 
 "call pathogen#runtime_append_all_bundles()
-"call pathogen#incubate()
-execute pathogen#infect('bundle/{}', '$VIM/dotVim/bundle/{}')
+call pathogen#incubate()
+"execute pathogen#infect('bundle/{}', '$VIM/dotVim/bundle/{}')
 
 filetype on
 filetype indent on
@@ -35,7 +35,7 @@ set encoding=utf-8
 set nolist
 
 "set background=dark
-colorscheme  solarized
+"colorscheme  solarized
 
 autocmd vimenter * NERDTree
 
