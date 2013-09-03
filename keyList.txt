@@ -24,3 +24,17 @@ Recording
 --------
 q<buffer>
 
+ctrl-w-s --> open horizontally
+ctrl-w-v --> open horizontally
+:only	--> close all the file except the current
+
+------------------------------
+ctrl-w |  --> maximize window vertically
+ctrl-w _  --> maximize window horizontally
+----------------------
+ctrl-w-T  --> move the current window to a new tab
+tabclose  --> all the files in the current tab.
+tabonly	  --> retain only current tab.
+
+#gt       --> jump to # tab.
+eg: 4gt
