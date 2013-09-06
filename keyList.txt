@@ -38,3 +38,11 @@ tabonly	  --> retain only current tab.
 
 #gt       --> jump to # tab.
 eg: 4gt
+
+============================
+Find/search pattern
+===========================
+/\<word\>        ----> search whole word (<word boundaries>)
+/\v<word>
+
+/\_s             -----> search whitespace or <CR> or linebreak
